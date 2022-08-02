@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Implementation-Title: mall-mbg
+Implementation-Version: 1.0-SNAPSHOT
+Build-Jdk-Spec: 1.8
+Created-By: Maven Jar Plugin 3.2.0
+Implementation-Vendor: Pivotal Software, Inc.
+
