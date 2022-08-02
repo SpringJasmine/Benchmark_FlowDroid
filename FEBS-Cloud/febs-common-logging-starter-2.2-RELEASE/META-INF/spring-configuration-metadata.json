@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "name": "febs.log",
+      "type": "cc.mrbird.febs.common.logging.starter.properties.FebsLogProperties",
+      "sourceType": "cc.mrbird.febs.common.logging.starter.properties.FebsLogProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "febs.log.enable-elk",
+      "type": "java.lang.Boolean",
+      "description": "是否开启ELK日志收集",
+      "sourceType": "cc.mrbird.febs.common.logging.starter.properties.FebsLogProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "febs.log.enable-log-for-controller",
+      "type": "java.lang.Boolean",
+      "description": "是否开启controller层api调用的日志",
+      "sourceType": "cc.mrbird.febs.common.logging.starter.properties.FebsLogProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "febs.log.logstash-host",
+      "type": "java.lang.String",
+      "description": "日志上传地址",
+      "sourceType": "cc.mrbird.febs.common.logging.starter.properties.FebsLogProperties",
+      "defaultValue": "127.0.0.1:4560"
+    }
+  ],
+  "hints": []
+}

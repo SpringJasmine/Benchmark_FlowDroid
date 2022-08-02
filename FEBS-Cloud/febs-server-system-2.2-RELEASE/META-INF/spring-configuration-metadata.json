@@ -1,0 +1,19 @@
+{
+  "groups": [
+    {
+      "name": "febs.server.system",
+      "type": "cc.mrbird.febs.server.system.properties.FebsServerSystemProperties",
+      "sourceType": "cc.mrbird.febs.server.system.properties.FebsServerSystemProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "febs.server.system.batch-insert-max-num",
+      "type": "java.lang.Integer",
+      "description": "批量插入当批次可插入的最大值",
+      "sourceType": "cc.mrbird.febs.server.system.properties.FebsServerSystemProperties",
+      "defaultValue": 1000
+    }
+  ],
+  "hints": []
+}

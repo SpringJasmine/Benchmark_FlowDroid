@@ -1,0 +1,19 @@
+{
+  "groups": [
+    {
+      "name": "febs.lettuce.redis",
+      "type": "cc.mrbird.febs.common.redis.properties.FebsLettuceRedisProperties",
+      "sourceType": "cc.mrbird.febs.common.redis.properties.FebsLettuceRedisProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "febs.lettuce.redis.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否开启Lettuce Redis",
+      "sourceType": "cc.mrbird.febs.common.redis.properties.FebsLettuceRedisProperties",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}

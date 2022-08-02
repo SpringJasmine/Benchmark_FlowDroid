@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/febs-auth-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/febs-auth-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-auth/pom.properties" />
+        <option value="$PROJECT_DIR$/febs-admin-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/febs-admin-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-admin/pom.properties" />
+        <option value="$PROJECT_DIR$/febs-gateway-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/febs-gateway-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-gateway/pom.properties" />
+        <option value="$PROJECT_DIR$/febs-common-doc-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-common-doc/pom.xml" />
+        <option value="$PROJECT_DIR$/febs-common-doc-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-common-doc/pom.properties" />
+        <option value="$PROJECT_DIR$/febs-server-job-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-server-job/pom.xml" />
+        <option value="$PROJECT_DIR$/febs-server-job-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-server-job/pom.properties" />
+        <option value="$PROJECT_DIR$/febs-tx-manager-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-tx-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/febs-tx-manager-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-tx-manager/pom.properties" />
+        <option value="$PROJECT_DIR$/febs-common-core-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-common-core/pom.xml" />
+        <option value="$PROJECT_DIR$/febs-common-core-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-common-core/pom.properties" />
+        <option value="$PROJECT_DIR$/febs-server-test-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-server-test/pom.xml" />
+        <option value="$PROJECT_DIR$/febs-server-test-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-server-test/pom.properties" />
+        <option value="$PROJECT_DIR$/febs-server-system-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-server-system/pom.xml" />
+        <option value="$PROJECT_DIR$/febs-server-system-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-server-system/pom.properties" />
+        <option value="$PROJECT_DIR$/febs-server-generator-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-server-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/febs-server-generator-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-server-generator/pom.properties" />
+        <option value="$PROJECT_DIR$/febs-common-doc-starter-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-common-doc-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/febs-common-doc-starter-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-common-doc-starter/pom.properties" />
+        <option value="$PROJECT_DIR$/febs-common-redis-starter-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-common-redis-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/febs-common-redis-starter-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-common-redis-starter/pom.properties" />
+        <option value="$PROJECT_DIR$/febs-common-logging-starter-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-common-logging-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/febs-common-logging-starter-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-common-logging-starter/pom.properties" />
+        <option value="$PROJECT_DIR$/febs-common-security-starter-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-common-security-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/febs-common-security-starter-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-common-security-starter/pom.properties" />
+        <option value="$PROJECT_DIR$/febs-common-datasource-starter-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-common-datasource-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/febs-common-datasource-starter-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-common-datasource-starter/pom.properties" />
+        <option value="$PROJECT_DIR$/febs-common-doc-gateway-starter-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-common-doc-gateway-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/febs-common-doc-gateway-starter-2.2-RELEASE/META-INF/maven/cc.mrbird/febs-common-doc-gateway-starter/pom.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

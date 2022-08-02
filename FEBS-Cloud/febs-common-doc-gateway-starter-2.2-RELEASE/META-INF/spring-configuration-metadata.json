@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "febs.doc.gateway",
+      "type": "cc.mrbird.febs.common.doc.gateway.properties.FebsDocGatewayProperties",
+      "sourceType": "cc.mrbird.febs.common.doc.gateway.properties.FebsDocGatewayProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "febs.doc.gateway.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否开启网关文档聚合功能",
+      "sourceType": "cc.mrbird.febs.common.doc.gateway.properties.FebsDocGatewayProperties"
+    },
+    {
+      "name": "febs.doc.gateway.resources",
+      "type": "java.lang.String",
+      "description": "需要暴露doc的服务列表，多个值时用逗号分隔 如 FEBS-Auth,FEBS-Server-System",
+      "sourceType": "cc.mrbird.febs.common.doc.gateway.properties.FebsDocGatewayProperties"
+    }
+  ],
+  "hints": []
+}
