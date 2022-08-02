@@ -1,0 +1,83 @@
+{
+  "groups": [
+    {
+      "name": "blade.async",
+      "type": "org.springblade.core.boot.props.BladeAsyncProperties",
+      "sourceType": "org.springblade.core.boot.props.BladeAsyncProperties"
+    },
+    {
+      "name": "blade.mybatis-plus",
+      "type": "org.springblade.core.boot.props.MybatisPlusProperties",
+      "sourceType": "org.springblade.core.boot.props.MybatisPlusProperties"
+    },
+    {
+      "name": "blade.tenant",
+      "type": "org.springblade.core.boot.tenant.BladeTenantProperties",
+      "sourceType": "org.springblade.core.boot.tenant.BladeTenantProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "blade.async.core-pool-size",
+      "type": "java.lang.Integer",
+      "description": "异步核心线程数，默认：2",
+      "sourceType": "org.springblade.core.boot.props.BladeAsyncProperties",
+      "defaultValue": 2
+    },
+    {
+      "name": "blade.async.keep-alive-seconds",
+      "type": "java.lang.Integer",
+      "description": "线程存活时间，默认：300",
+      "sourceType": "org.springblade.core.boot.props.BladeAsyncProperties",
+      "defaultValue": 300
+    },
+    {
+      "name": "blade.async.max-pool-size",
+      "type": "java.lang.Integer",
+      "description": "异步最大线程数，默认：50",
+      "sourceType": "org.springblade.core.boot.props.BladeAsyncProperties",
+      "defaultValue": 50
+    },
+    {
+      "name": "blade.async.queue-capacity",
+      "type": "java.lang.Integer",
+      "description": "队列容量，默认：10000",
+      "sourceType": "org.springblade.core.boot.props.BladeAsyncProperties",
+      "defaultValue": 10000
+    },
+    {
+      "name": "blade.mybatis-plus.overflow",
+      "type": "java.lang.Boolean",
+      "description": "溢出总页数后是否进行处理",
+      "sourceType": "org.springblade.core.boot.props.MybatisPlusProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "blade.mybatis-plus.page-limit",
+      "type": "java.lang.Long",
+      "description": "分页最大数",
+      "sourceType": "org.springblade.core.boot.props.MybatisPlusProperties",
+      "defaultValue": 500
+    },
+    {
+      "name": "blade.tenant.blade-tables",
+      "type": "java.util.List<java.lang.String>",
+      "description": "多租户系统数据表",
+      "sourceType": "org.springblade.core.boot.tenant.BladeTenantProperties"
+    },
+    {
+      "name": "blade.tenant.column",
+      "type": "java.lang.String",
+      "description": "多租户字段名称",
+      "sourceType": "org.springblade.core.boot.tenant.BladeTenantProperties",
+      "defaultValue": "tenant_id"
+    },
+    {
+      "name": "blade.tenant.tables",
+      "type": "java.util.List<java.lang.String>",
+      "description": "多租户数据表",
+      "sourceType": "org.springblade.core.boot.tenant.BladeTenantProperties"
+    }
+  ],
+  "hints": []
+}

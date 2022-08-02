@@ -1,0 +1,64 @@
+{
+  "groups": [
+    {
+      "name": "report",
+      "type": "org.springblade.core.report.props.ReportProperties",
+      "sourceType": "org.springblade.core.report.props.ReportProperties"
+    },
+    {
+      "name": "report.database.provider",
+      "type": "org.springblade.core.report.props.ReportDatabaseProperties",
+      "sourceType": "org.springblade.core.report.props.ReportDatabaseProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "report.database.provider.disabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springblade.core.report.props.ReportDatabaseProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "report.database.provider.name",
+      "type": "java.lang.String",
+      "sourceType": "org.springblade.core.report.props.ReportDatabaseProperties",
+      "defaultValue": "数据库文件系统"
+    },
+    {
+      "name": "report.database.provider.prefix",
+      "type": "java.lang.String",
+      "sourceType": "org.springblade.core.report.props.ReportDatabaseProperties",
+      "defaultValue": "blade-"
+    },
+    {
+      "name": "report.debug",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springblade.core.report.props.ReportProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "report.disable-file-provider",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springblade.core.report.props.ReportProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "report.disable-http-session-report-cache",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springblade.core.report.props.ReportProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "report.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springblade.core.report.props.ReportProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "report.file-store-dir",
+      "type": "java.lang.String",
+      "sourceType": "org.springblade.core.report.props.ReportProperties"
+    }
+  ],
+  "hints": []
+}

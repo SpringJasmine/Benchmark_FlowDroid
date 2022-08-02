@@ -1,0 +1,7 @@
+net.dreamlu.mica.feign.MicaFeignAutoConfiguration=\
+  org.springblade.core.log.feign.ILogClient
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.springblade.core.log.config.BladeLogToolAutoConfiguration,\
+  org.springblade.core.log.feign.LogClientFallback,\
+  org.springblade.core.log.config.BladeErrorMvcAutoConfiguration,\
+  org.springblade.core.log.error.BladeRestExceptionTranslator

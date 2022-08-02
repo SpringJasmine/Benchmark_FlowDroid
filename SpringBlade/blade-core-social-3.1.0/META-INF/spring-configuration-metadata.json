@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "social",
+      "type": "org.springblade.core.social.props.SocialProperties",
+      "sourceType": "org.springblade.core.social.props.SocialProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "social.alias",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "description": "别名",
+      "sourceType": "org.springblade.core.social.props.SocialProperties"
+    },
+    {
+      "name": "social.domain",
+      "type": "java.lang.String",
+      "description": "域名地址",
+      "sourceType": "org.springblade.core.social.props.SocialProperties"
+    },
+    {
+      "name": "social.enabled",
+      "type": "java.lang.Boolean",
+      "description": "启用",
+      "sourceType": "org.springblade.core.social.props.SocialProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "social.oauth",
+      "type": "java.util.Map<me.zhyd.oauth.config.AuthDefaultSource,me.zhyd.oauth.config.AuthConfig>",
+      "description": "类型",
+      "sourceType": "org.springblade.core.social.props.SocialProperties"
+    }
+  ],
+  "hints": []
+}

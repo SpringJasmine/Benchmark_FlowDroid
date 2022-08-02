@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.springblade.core.oss.config.QiniuConfiguration,\
+  org.springblade.core.oss.config.AliossConfiguration

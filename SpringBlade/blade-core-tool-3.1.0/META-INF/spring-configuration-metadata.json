@@ -1,0 +1,35 @@
+{
+  "groups": [
+    {
+      "name": "blade.xss",
+      "type": "org.springblade.core.tool.support.xss.XssProperties",
+      "sourceType": "org.springblade.core.tool.support.xss.XssProperties"
+    },
+    {
+      "name": "blade.xss.url",
+      "type": "org.springblade.core.tool.support.xss.XssUrlProperties",
+      "sourceType": "org.springblade.core.tool.support.xss.XssUrlProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "blade.xss.enabled",
+      "type": "java.lang.Boolean",
+      "description": "开启xss",
+      "sourceType": "org.springblade.core.tool.support.xss.XssProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "blade.xss.skip-url",
+      "type": "java.util.List<java.lang.String>",
+      "description": "放行url",
+      "sourceType": "org.springblade.core.tool.support.xss.XssProperties"
+    },
+    {
+      "name": "blade.xss.url.exclude-patterns",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springblade.core.tool.support.xss.XssUrlProperties"
+    }
+  ],
+  "hints": []
+}

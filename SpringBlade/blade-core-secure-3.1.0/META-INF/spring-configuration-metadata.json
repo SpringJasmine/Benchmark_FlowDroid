@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "blade.secure",
+      "type": "org.springblade.core.secure.props.BladeSecureProperties",
+      "sourceType": "org.springblade.core.secure.props.BladeSecureProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "blade.secure.client",
+      "type": "java.util.List<org.springblade.core.secure.props.ClientSecure>",
+      "sourceType": "org.springblade.core.secure.props.BladeSecureProperties"
+    },
+    {
+      "name": "blade.secure.skip-url",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springblade.core.secure.props.BladeSecureProperties"
+    }
+  ],
+  "hints": []
+}

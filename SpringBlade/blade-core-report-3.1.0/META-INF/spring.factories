@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.springblade.core.report.endpoint.ReportEndpoint,\
+  org.springblade.core.report.endpoint.ReportBootEndpoint,\
+  org.springblade.core.report.service.impl.ReportFileServiceImpl,\
+  org.springblade.core.report.config.ReportConfiguration
